@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BandBand Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1420;
+    --card: #171d2e;
+    --text: #e8ebf2;
+    --muted: #9aa3b8;
+    --accent: #4a90d9;
+    --border: #2a3248;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f5f6f9;
+      --card: #ffffff;
+      --text: #1a1d29;
+      --muted: #5b6272;
+      --accent: #2f6fb0;
+      --border: #e2e5ec;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 1.7rem;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+  }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  a { color: var(--accent); }
+  code {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.9em;
+  }
+  footer {
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>BandBand Support</h1>
+  <p class="updated">Last updated: October 25, 2026</p>
+
+  <div class="card">
+    <p>BandBand is a mobile app for band event management — organizing gigs and
+    rehearsals, tracking participants and payments, managing song lists, sheet music,
+    venues, and communicating within a band. If something isn't working, or you have
+    a question, this page tells you how to reach us.</p>
+  </div>
+
+  <h2>Contact Us</h2>
+  <p>For bug reports, feature requests, or any other question about the app, email
+  <a href="mailto:ym.liao@gmail.com">ym.liao@gmail.com</a>. We read every message and
+  aim to reply within a few days.</p>
+
+  <h2>Common Questions</h2>
+  <ul>
+    <li><strong>I can't sign in.</strong> BandBand supports Google, Apple, LINE, and
+      email + password sign-in. Make sure you're using the same method you originally
+      signed up with — if you're not sure which one, email us and we can check.</li>
+    <li><strong>How do I delete my account?</strong> Open the app, go to
+      <strong>Settings → Delete Account</strong>. This permanently removes your
+      profile and personal data.</li>
+    <li><strong>How do I change my language?</strong> BandBand is available in
+      English, Traditional Chinese, Simplified Chinese, Japanese, and Korean. Switch
+      it anytime from the welcome screen's language selector, or from
+      <strong>Settings → Language</strong> once signed in.</li>
+    <li><strong>How do I report an issue with payments?</strong> BandBand doesn't
+      process payments itself — a band's admin tracks who has paid outside the app.
+      If something looks wrong in the app's display of payment status, email us with
+      the band/event name and we'll look into it.</li>
+    <li><strong>I found a bug.</strong> Email us a short description of what you did
+      and what happened — a screenshot helps a lot if you have one.</li>
+  </ul>
+
+  <h2>Privacy</h2>
+  <p>See our <a href="./index.html">Privacy Policy</a> for details on what information
+  BandBand collects and how it's used.</p>
+
+  <footer>BandBand — band event management.</footer>
+</main>
+</body>
+</html>
